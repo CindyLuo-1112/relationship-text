@@ -60,8 +60,8 @@ button{
   transition: 0.25s;
 }
 
-button:hover{
-  button:focus{
+
+button:focus{
 
   outline: none;
 
@@ -70,13 +70,11 @@ button:hover{
   color: #3a3340;
 
 }
-  button:active{
+
+button:active{
 
   transform: scale(0.97);
 
-}
-  background: #f2e8f4;
-  transform: translateY(-2px);
 }
 
 .progress{
@@ -298,5 +296,17 @@ button:hover{
   margin-top: 20px;
 
   font-style: italic;
+
+}
+
+@media (hover: hover){
+
+  button:hover{
+
+    background: #f2e8f4;
+
+    transform: translateY(-2px);
+
+  }
 
 }
