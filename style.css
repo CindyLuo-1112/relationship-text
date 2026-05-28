@@ -280,3 +280,14 @@ button:hover{
   }
 
 }
+.little-note{
+
+  font-size: 13px;
+
+  color: #9b8fa3;
+
+  margin-top: 20px;
+
+  font-style: italic;
+
+}
