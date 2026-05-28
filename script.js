@@ -340,6 +340,7 @@ app.innerHTML = `
 }
 
 function chooseAnswer(index) {
+  document.activeElement.blur();
   const answer = questions[currentQuestion].answers[index];
 
   scores[answer.type] = (scores[answer.type] || 0) + 1;
