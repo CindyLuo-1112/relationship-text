@@ -2,7 +2,8 @@ const questions = [
   {
     question: "你们最常见的联系状态是？",
     answers: [
-      { text: "每天都会聊几句", type: "情绪共振型" },
+      { text: "每天都会聊", type: "情绪共振型" },
+      { text: "偶尔联系，但不频繁", type: "低频陪伴型" },
       { text: "很久不聊，但见面不尴尬", type: "线下续命型" },
       { text: "一阵很热，一阵很冷", type: "阶段性亲密型" },
       { text: "主要是我在维持", type: "单向供氧型" }
@@ -14,6 +15,7 @@ const questions = [
       { text: "自然分享生活", type: "情绪共振型" },
       { text: "偶尔更新近况", type: "低频陪伴型" },
       { text: "像完成社交任务", type: "礼貌存活型" },
+      { text: "大部分时候都是我在找话题", type: "单向供氧型" },
       { text: "只有情绪上来才会聊", type: "阶段性亲密型" }
     ]
   },
@@ -23,7 +25,8 @@ const questions = [
       { text: "会主动找我", type: "情绪共振型" },
       { text: "可能会，但不一定", type: "阶段性亲密型" },
       { text: "大概率不会", type: "单向供氧型" },
-      { text: "我感觉关系会直接断掉", type: "单向供氧型" }
+      { text: "我感觉关系会直接断掉", type: "单向供氧型" },
+      { text: "我忍不住不找他/她", type: "单向供氧型" }
     ]
   },
   {
@@ -84,6 +87,7 @@ const questions = [
     question: "这段关系里，谁更容易推进关系？",
     answers: [
       { text: "双方都会", type: "情绪共振型" },
+      { text: "主要是对方", type: "情绪共振型" },
       { text: "不需要推进，也挺稳", type: "低频陪伴型" },
       { text: "主要是我", type: "单向供氧型" },
       { text: "基本没人推进", type: "惯性维持型" }
