@@ -467,7 +467,7 @@ const currentEmoji = typeEmojis[topType];
 
 </div>
       <p><strong>关系关键词：</strong>${detail.keywords}</p >
-      <p><strong>危险指数：</strong>${danger}%</p >
+      <p><strong>人格匹配度：</strong>${danger}%</p >
       <p><strong>关系说明：</strong>${detail.description}</p >
       <p><strong>系统建议：</strong>${detail.advice}</p >
     </div>
